@@ -1,0 +1,71 @@
+.wrapper {
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.zone {
+  border: 4px solid white;
+  width: 100%;
+  height: calc(100vh - 160px);
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  color: white;
+  font-weight: 800;
+}
+
+.target {
+  width: 300px;
+  height: 300px;
+  background: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.green {
+  background-color: green;
+  cursor: pointer;
+}
+
+.btn {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 18px 40px;
+  background: white;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(196, 196, 196);
+}
